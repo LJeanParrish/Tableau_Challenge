@@ -15,7 +15,7 @@ Additionally, the period covers a sufficiently large period to capture seasonal 
 
 My objective for this project was to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
 
-Next I designed 4 Tableau visualizations for each discovered phenomena (8 total).** 
+Next I designed Tableau visualizations for each discovered phenomena (9 total).** 
 
 # 1969 Anomaly
 
@@ -65,7 +65,7 @@ A possible root cause for this trend is that there are fewer transportation opti
 and ending points may be of slightly greater distance which disposes an individual to use Citi Bikes rather than walking. 
 
 
-#Tableau Story
+# Tableau Story
 
 The data from the phenomena visuzlizations, the dashboards, and the maps was then combined into a Tableau Story.  The data was also analyzed in text format
 via powerpoint. The visualizations can be found on my [Tableau Public](https://public.tableau.com/profile/lauren.parrish#!/) webpage.
