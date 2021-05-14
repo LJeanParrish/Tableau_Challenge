@@ -15,128 +15,57 @@ Additionally, the period covers a sufficiently large period to capture seasonal 
 
 **My objective for this project was to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
 
-**Next I design 4 visualizations for each discovered phenomena (8 total).** 
+**Next I designed 4 Tableau visualizations for each discovered phenomena (8 total).** 
 
-**The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!**
+# 1969 Anomaly
 
-* How many trips have been recorded total during the chosen period?
+** The first phenomena that I discovered was what I called the 1969 Anomaly.  
 
-* By what percentage has total ridership grown?
+** The data reflected that the ages of individuals using Citi Bikes is largely normally distributed with the exception of those individuals born in the year 1969 where there is a significant spike in usage. 
 
-* How has the proportion of short-term customers and annual subscribers changed?
+** The 1969er use type for Citi Bikes utilize the “Customer” rather than “Subscriber” payment method.  This customer payment method is designed for 24 Hour or 3 Day use.  Additionally, the 1969ers use a larger 
+number of bikes, take longer rides, and are more numerous during mild months.  This is aligned with leisure activity.  
 
-* What are the peak hours in which bikes are used during summer months?
+** When looking at this evidence together, it is fair to conclude that the New York and New Jersey area see a high proportion of tourist born in the year 
+1969 making them around 50 years old at the time of the sample.  This high proportion of individuals may be visiting the area due to the momentous birthday 
+or are simply of the age where tourists can enjoy more attractions not specifically geared towards younger families. 
 
-* What are the peak hours in which bikes are used during winter months?
+# Gender Outreach
 
-* Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
+** The second phenomena I researched was impact of marketing towards women to increase Citi Bike usage.  From the data, this does not appear to be effective. 
 
-* Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
+** Women are less inclined to use Citi Bikes based on the data gathered for the time period of June 2019 – February 2020.  A reason for this may be that 
+women are more inclined to use multiple forms of transportation particularly to avoid inclement weather. The data hints at this in the seasonal ride time 
+where women are more inclined have rides with greater durations during more mild months. 
 
-* Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
+** Women are also more inclined to ride Citi Bikes in New Jersey.  This in part may be due to fewer transportation options and greater distances to walk 
+between start and end points.  New Jersey may also be safer to cycle or have more designated cycling areas which may appeal to women who are generally more 
+risk adverse.  
 
-* Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
+** Interestingly, there is a wider age range of women who are open to Citi Bikes when compared to the male steeper slope. 
 
-* Today, what is the gender breakdown of active participants (Male v. Female)?
+**The visualizations for both the 1969 Anomaly and Gender Outreach were combined into Tableau Dashboards and analysis was provided in a powerpoint. 
 
-* How effective has gender outreach been in increasing female ridership over the timespan?
+# Station Popularity
 
-* How does the average trip duration change by age?
+** I then performed analysis on station popularity in terms of number of journeys started at a station and number of journeys ended at a station. 
 
-* What is the average distance in miles that a bike is ridden?
+** The first map I created utilized the Tableau dual axis function to reflect different symbols for journey starts and ends.  The data was futher distinguished
+by size (number of journeys started/ended) and color.  I then overlayed zip codes and zip code boundries to the map.  
 
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
+** I then created a seperate map which outlined the seasonal differences in end journeys over the period.  This was achieved by constructing a map with only the 
+end journey information and adding a drop down filter for the months.  Users can now drill down to understand how usage changed throughout the period. 
 
-* How variable is the utilization by bike ID?
+** Interestingly, Station Popularity reflects that Citi Bikes are significantly more popular in New Jersey than the New York Boroughs during analysis period. 
 
-**Next, as a chronic over-achiever:**
+** Stations located in New Jersey sustained higher popularity in both starting and ending locations.  It can therefore be inferred that the individuals using Citi Bikes 
+stay within New Jersey.  This trend does reduce seasonally where end locations occur with greater frequency in Manhattan during warmer months. 
 
-* Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-* The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring. 
-
-**City officials would also like to see one of the following visualizations:**
-
-* **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-
-* The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
-
-**Finally, create your final presentation**
-
-* Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-* This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing. 
-
-## Considerations
-
-Remember, the people reading your analysis will **NOT** be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes. 
-
-## Submission 
-
-Your final submission should include:
-
-* A link to your Tableau Public workbook that includes: 
-  * 4-10 Total "Phenomenon" Visualizations 
-  * 2 Dashboards
-  * 1 City Official Map
-  * 1 Story 
-* A text or markdown file with your analysis on the phenomenons you uncovered from the data.
-
-## Sharing Your Work
-
-* In order to share your work, we are asking that you will save your workbook as a .twbx file.
-
-* To save your workbook as a .twbx file, you will just need to go to `File`, then `Save to Tableau Public...`.
-
-* Please create an account if you do not have one already.
-
-* Once you have created an account and published your work to Tableau Public, go to the visualization in Tableau Public and find the `Download` button at the bottom right hand corner.
-
-* Please download the Tableau Public file to your computer and submit it.
-
-## Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Analytic Rigor
-
-* Readability
-
-* Visual Attraction
+** A possible root cause for this trend is that there are fewer transportation options in New Jersey than in the Boroughs.  Additionally, the distances between starting 
+and ending points may be of slightly greater distance which disposes an individual to use Citi Bikes rather than walking. 
 
 
-## Hints
+#Tableau Story
 
-* You may need to get creative in how you combine each of the CSV files. Don't just assume Tableau is the right tool for the job. At this point, you have a wealth of technical skills and research abilities. Dig for an approach that works and just go with it.
-
-* Don't just assume the CSV format hasn't changed since 2013. Subtle changes to the formats in any of your columns can blockade your analysis. Ensure your data is consistent and clean throughout your analysis. (Hint: Start and End Time change at some point in the history logs).
-
-* Consider building your visualizations with small extracts of the data (i.e. single files) before attempting to import the whole thing. What you will find is that importing all 20+ million records of data will create performance issues quickly. Welcome to "Big Data."
-
-* While utilizing all of the data may seem like a nice power play, consider the time-course in making your analysis. Is data from 2013 the most relevant for making bike replacement decisions today? Probably not. Don't let overwhelming data fool you. Ground your analysis in common sense.
-
-* Remember, data alone doesn't "answer" anything. You will need to accompany your data visualizations with clear and directed answers and analysis.
-
-* As is often the case, your clients are asking for a LOT of answers. Be considerate about their need-to-know and the importance of not "cramming in everything". Of course, answer each question, but do so in a way that is organized and presentable.
-
-* Since this is a project for the city, spend the appropriate time thinking through decisions on color schemes, fonts, and visual story-telling. The Citi Bike program has a clear visual footprint. As a suggestion, look for ways to have your data visualizations match their aesthetic tones.
-
-* Pay attention to labels. What exactly is "time duration"? What's the value of "age of birth"? You will almost certainly need calculated fields to get what you need.
-
-* Keep a close eye for obvious outliers or false data. Not everyone who signs up for the program is answering honestly.
-
-* In answering the question of "why" a phenomenon is occurring, consider adding other pieces of information on socioeconomic or other geographic data. Tableau has a map "layer" feature that you may find handy.
-
-* Don't be afraid to manipulate your data and play with settings in Tableau. Tableau is meant to be explored. We haven't covered all that you need -- so you will need to keep an eye out for new tricks.
-
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst. 
-
-* Good luck!
-
-## Rubric
-
-[Unit 20 Rubric - Tableau Homework - Citi Bike Analytics](https://docs.google.com/document/d/135gKIRxE8XB9XGmXcGORGpmJAeGdh1qz6ogh8na6P-o/edit?usp=sharing)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+** The data from the phenomena visuzlizations, the dashboards, and the maps was then combined into a Tableau Story.  The data was also analyzed in text format
+via powerpoint. The visualizations can be found on my [Tableau Public](https://public.tableau.com/profile/lauren.parrish#!/) webpage.
