@@ -13,11 +13,11 @@ Additionally, the period covers a sufficiently large period to capture seasonal 
 
 ## Objective
 
-My objective for this project was to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
+My objective for this project was to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.
 
-Next I designed Tableau visualizations for each discovered phenomena (9 total).** 
+Next I designed Tableau visualizations for each discovered phenomena (9 total).
 
-# 1969 Anomaly
+### 1969 Anomaly
 
 The first phenomena that I discovered was what I called the 1969 Anomaly.  
 
@@ -30,7 +30,7 @@ When looking at this evidence together, it is fair to conclude that the New York
 1969 making them around 50 years old at the time of the sample.  This high proportion of individuals may be visiting the area due to the momentous birthday 
 or are simply of the age where tourists can enjoy more attractions not specifically geared towards younger families. 
 
-# Gender Outreach
+### Gender Outreach
 
 The second phenomena I researched was impact of marketing towards women to increase Citi Bike usage.  From the data, this does not appear to be effective. 
 
@@ -46,7 +46,7 @@ Interestingly, there is a wider age range of women who are open to Citi Bikes wh
 
 The visualizations for both the 1969 Anomaly and Gender Outreach were combined into Tableau Dashboards and analysis was provided in a powerpoint. 
 
-# Station Popularity
+### Station Popularity
 
 I then performed analysis on station popularity in terms of number of journeys started at a station and number of journeys ended at a station. 
 
@@ -65,7 +65,9 @@ A possible root cause for this trend is that there are fewer transportation opti
 and ending points may be of slightly greater distance which disposes an individual to use Citi Bikes rather than walking. 
 
 
-# Tableau Story
+### Tableau Story
 
 The data from the phenomena visuzlizations, the dashboards, and the maps was then combined into a Tableau Story.  The data was also analyzed in text format
 via powerpoint. The visualizations can be found on my [Tableau Public](https://public.tableau.com/profile/lauren.parrish#!/) webpage.
+
+
